@@ -1,0 +1,51 @@
+#banner{
+      background: #1C1E53;
+      padding: 118px 0;
+      position: relative;
+      .banner-text{
+            padding-top: 60px;
+            h2{
+                  font-size: 54px;
+                  color: #fff;
+                  font-family: 'Titillium Web', sans-serif;
+            }
+            p{
+                  font-size: 16px;
+                  color: #fff;
+                  padding-right: 50px;
+                  font-family: 'Open Sans', sans-serif;
+                  line-height: 1.7;
+            }
+            .ban-btn{
+                  margin-top: 50px;
+                  .btnn{
+                        font-size: 16px;
+                        padding: 10px 20px;
+                        background-color: #FCD980;
+                        color: #222;
+                        border-radius: 30px;
+                        -webkit-border-radius: 30px;
+                        -moz-border-radius: 30px;
+                        -ms-border-radius: 30px;
+                        -o-border-radius: 30px;
+                        margin-right: 60px;
+                  }
+                  a{
+                        color: #fff;
+                        padding-right: 10px;
+                  }
+                  i{
+                        color: #fff;
+                        font-size: 20px;
+                        margin-top: 10px;
+                  }
+            }
+      }
+      .banner-img{
+            padding-top: 65px;
+            width: 520px;
+            img{
+                  width: 100%;
+            }
+      }
+}

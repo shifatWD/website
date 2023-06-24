@@ -1,0 +1,119 @@
+#project{
+    padding: 80px 0;
+    .project-head{
+        h3{
+            font-size: 32px;
+            text-transform: capitalize;
+            font-weight: 600;
+            color: #222;
+        }
+    }
+    .project-head-link{
+        a{
+            color: #222;
+            font-size: 16px;
+            i{
+                margin-left: 8px;
+            }
+        }
+    }
+    .pro-img1{
+        position: relative;
+        margin-top: 50px ;
+        overflow: hidden;
+        .pro-img1-overlay{
+            position: absolute;
+            left: -47%;
+            top: 0;
+            height: 100%;
+            width: 47%;
+            background:  linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            opacity: 0;
+            transition: 0.5s;
+            h3{
+                position: absolute;
+                left: 25px;
+                bottom: 175px;
+                font-size: 25px;
+                color: #fff;
+                font-weight: 600;
+                text-transform: capitalize;
+                letter-spacing: 0.8px;
+                display: block;
+            }
+            p{
+                position: absolute;
+                left: 25px;
+                bottom: 80px;
+                font-size: 16px;
+                color: #fff;
+                line-height: 1.7;
+                padding-right: 55px;
+                letter-spacing: 0.5px;
+            }
+            a{
+                position: absolute;
+                left: 25px;
+                bottom: 45px;
+                font-size: 16px;
+                color: #FCD980;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .pro-img1:hover .pro-img1-overlay{
+        opacity: 1;
+        left: 0%;
+    }
+    .pro-img2{
+        margin-top: 50px;
+        position: relative;
+        .pro-img2-overlay{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            opacity: 0;
+            transition: 0.5s;
+            h4{
+                position: absolute;
+                left: 40px;
+                bottom: 80px;
+                font-size: 18px;
+                color: #fff;
+            }
+            p{
+                position: absolute;
+                left: 40px;
+                bottom: 45px;
+                font-size: 18px;
+                color: #fff;
+                line-height: 1.7;
+            }
+            a{
+                position: absolute;
+                left: 40px;
+                bottom: 25px;
+                font-size: 14px;
+                color: #FCD980;
+                
+            }
+        }
+        img{
+            width: 100%;
+        }
+        :hover{
+            opacity: 1;
+        }
+    }
+    .pro-img3{
+        margin-top: 24px;
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+#inquiry{
+   margin: 0 0 15px;
+   .inquiry-img{
+      position: relative;
+      img{
+         width: 100%;
+      }
+      .inquiry-img-overlay{
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color:  rgba(28, 30, 83, 0.5);
+         .inq-overlay-text{
+            position: absolute;
+            top: 35%;
+            transform: translateY(-50%);
+            left: 14%;
+            h3{
+               font-size: 48px;
+               color: #fff;
+               font-weight: 600;
+               width: 370px;
+               margin: 0;
+               
+            }
+            p{
+               color: #fff;
+               width: 400px;
+               padding-top: 25px;
+               font-size: 16px;
+
+            }
+         }
+      }
+   }
+   .inquiry-from{
+      background-color: #1C1E53;
+      height: 100%;
+      .from-head{
+         width: 365px;
+         margin: 0 auto;
+         padding-top: 85px;
+         h4{
+            color: #fff;
+            font-size: 32px;
+            font-weight: 600;
+         }
+         p{
+            font-size: 16px;
+            color: #fff;
+            padding: 15px 0 25px;
+            line-height: 1.7;
+         }
+      }
+      .input-box{
+         width: 365px;
+         margin: 0 auto;
+         input{
+            color: #F4F6FC;
+            display: block;
+            padding: 15px 0;
+            margin-bottom: 12px;
+            width: 365px;
+            padding-left: 15px;
+            background-color: transparent;
+            border: 1.5px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+}
+      }
+      .inquiry-btn{
+         width: 365px;
+         margin: 20px auto 20px;
+         text-align: center;
+         .sent-btn{
+            font-size: 16px;
+            color: #222;
+            background-color: #FCD980;
+            padding: 10px 20px;
+            display: block;
+            border-radius: 41px;
+            -webkit-border-radius: 41px;
+            -moz-border-radius: 41px;
+            -ms-border-radius: 41px;
+            -o-border-radius: 41px;
+         }
+         .get-link{
+            font-size: 18px;
+            color: #fff;
+            margin-top: 20px;
+            i{
+               margin-left: 10px;
+            }
+         }
+      }
+   }
+}

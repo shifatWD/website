@@ -1,0 +1,49 @@
+// 3 work plate
+@mixin work-plate{
+      margin-bottom: 40px;
+            h4{
+                  font-size: 30px;
+                  font-weight: 600;
+                  padding-top: 10px;
+            }
+            p{
+                  padding-right: 38px;
+                  font-size: 16px;
+                  line-height: 1.7;
+                  padding-top: 10px;
+            }
+            img{
+                  width: 40px;
+            }
+}
+// work part start
+#work{
+      padding: 100px 0 40px;
+      background-color: #F4F6FC;
+      .work-text{
+            h2{
+                  font-size: 38px;
+                  font-weight: 600;
+                  color: #222;
+                  
+            }
+            p{
+                  font-size: 16px;
+                  font-family: "Open Sans", sans-serif;
+                  color: #222;
+                  line-height: 1.7;
+                  padding: 8px 0;
+                  width: 310px;
+            }
+            .work-link{
+                  a{
+                        font-size: 16px;
+                        color: #2405F2;
+                        font-weight: 500;
+                  }
+            }
+      }
+      .work-plat{
+            @include work-plate;
+      }
+}

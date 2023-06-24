@@ -1,0 +1,60 @@
+#testimonial{
+  background-color: #eef0f5;
+  padding: 50px 0;
+  .testi-nav{
+    h4{
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #222;
+      letter-spacing: 0.5px;
+      padding-bottom: 16px;
+    }
+    p{
+      font-size: 15px;
+      line-height: 1.7;
+      color: #282938;
+      width: 300px;
+    }
+  }
+
+  .testi-menu{
+    h5{
+      font-size: 32px;
+      font-weight: 600;
+      color: #222;
+    }
+    .testi-clint{
+      margin-top: 35px;
+      width: 60px;
+      display: inline-block;
+      img{
+        width: 100%;
+        border-radius: 50%;
+}
+    }
+    .clint-name{
+      display: inline-block;
+      position: absolute;
+      margin-top: 35px;
+      p{
+        font-size: 16px;
+        color: #222;
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-left: 15px;
+        line-height: 1.5;
+      }
+      span{
+        font-size: 14px;
+        color: #222;
+        text-transform: capitalize;
+        padding-left: 15px;
+      }
+    }
+  }
+  .slick-list{
+    padding: 0 !important;
+  }
+}
+  

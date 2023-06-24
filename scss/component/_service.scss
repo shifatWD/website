@@ -1,0 +1,38 @@
+#service{
+  padding: 70px 0;
+  background-color: #F4F6FC;
+  .service-head{
+      h2{
+        width: 485px;
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        padding-bottom: 22px;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 500;
+      }
+  }
+  .service-card{
+    background-color: #ffffff;
+    padding: 35px;
+    margin: 10px 10px;
+    i{
+      font-size: 24px;
+      color: #2405F2;
+    }
+    h4{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px 0;
+    }
+    p{
+      font-size: 14px;
+      line-height: 1.7;
+      color: #282938;
+      font-family: 'open sans';
+    }
+  }
+}
